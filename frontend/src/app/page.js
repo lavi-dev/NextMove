@@ -5,12 +5,12 @@ export default function Home() {
       <header className="flex items-center justify-between px-6 py-4 bg-white shadow">
         <h1 className="text-2xl font-bold text-blue-600">NextMove</h1>
         <nav>
-          <ul className="flex space-x-4">
-            <li><a href="#" className="text-gray-700 hover:text-blue-500">Home</a></li>
-            <li><a href="#" className="text-gray-700 hover:text-blue-500">About</a></li>
-            <li><a href="#" className="text-gray-700 hover:text-blue-500">Get Started</a></li>
-          </ul>
-        </nav>
+  <ul className="flex space-x-4">
+    <li><a href="/" className="text-gray-700 hover:text-blue-500">Home</a></li>
+    <li><a href="/profile" className="text-gray-700 hover:text-blue-500">Profile</a></li>
+    <li><a href="#" className="text-gray-700 hover:text-blue-500">Get Started</a></li>
+  </ul>
+</nav>
       </header>
 
       {/* Hero Section */}
